@@ -5,7 +5,7 @@ from pymongo import MongoClient
 
 
 app = Flask(__name__)
-client = MongoClient('mongodb+srv://Abdelrahman_292:12345678910@cluster0.apnnwfj.mongodb.net/test') #but your mongo atlas link here
+client = MongoClient('') #but your mongo atlas link here
 app.db = client.microblog
 
 # entries = []
